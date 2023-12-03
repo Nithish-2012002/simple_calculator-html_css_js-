@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="Stylesheet">
+    
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="col">
+    <div class="calci">
+        
+       <form >
+        <div class="back">
+        <h3>General Calculator</h3>
+        <div class="boxes">
+        <label for="val1">Value-1: </label>
+        <input type="number" id="val1">
+        <br>
+        <label for="val2">Value-2: </label>
+        <input type="number" id="val2"></div>
+        <div class="btn">
+            <button type="submit" onclick="add()">+</button>
+            <button type="submit"onclick="sub()">-</button>
+            <button type="submit"onclick="mul()">x</button>
+            <button type="submit"onclick="div()">/</button>
+        </div>
+    </div>
+   
+       </form>
+       <div id="result">
+
+       </div>
+    </div></div>
+    <script src="jscript.js"></script>
+</body>
+</html>
